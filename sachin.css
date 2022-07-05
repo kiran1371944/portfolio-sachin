@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    margin: 0px;
+
+}
+.menu{
+    position: fixed;
+    background-color: cadetblue;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    text-shadow: 4px 0px 4px red;
+    color: darkslateblue;
+    font-size: 35px;
+}
+.links:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient(rgb(119, 0, 255),white);
+    color: rgb(55, 97, 1);
+    font-size: 25px;
+}
+.profile{
+    border-radius: 1000px;
+}
+#name{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.2;
+    
+}
+h2{
+    font-size: 40px;
+    line-height: 1.2;
+}
+#bio{
+    padding: 50px;
+    font-size: 15px;
+    background: linear-gradient(white,rgb(145, 52, 252),white);
+
+}
+.line{
+    height: 4px;
+    width: 70px;
+    background-color:black ;
+    margin: auto;
+}
+#writings{
+    background: linear-gradient(rgb(119, 0, 255),white,rgb(119, 0, 255));
+
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+#writings a:hover{
+    color: rgb(218, 255, 10);
+}
+#videos{
+    background: linear-gradient(white,rgb(119, 0, 255),white);
+}
+#work{
+    background: linear-gradient(white,rgb(119, 0, 255));
+
+}
+#contact{
+    background: linear-gradient(white,rgb(119, 0, 255),white);
+
+}
+#contact iframe{
+    /*width: 100%;*/
+    margin-top: 30px;
+}
+.contact_1 a{
+    text-shadow:rgb(233, 166, 79);
+    color:darkgray ;
+    display: inline;
+}
+.contact_1 h3{
+    display: inline;
+}
